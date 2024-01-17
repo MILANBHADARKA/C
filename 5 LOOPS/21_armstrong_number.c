@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
         num=i;
         ans=0;
 
-         for(j=1;num>0;j++)
+        for(j=1;num>0;j++)
         {
             d=num%10;
             ans=ans+(d*d*d);

@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
             printf("you win ruppes 45\n");
         }
 
-        else if (marks1 >= 90 || marks2 >= 90)
+        else if (marks1 >= 80 || marks2 >= 80)
         {
             printf("you win ruppes 15\n");
         }

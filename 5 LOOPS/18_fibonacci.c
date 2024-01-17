@@ -8,12 +8,6 @@ int main(int argc, char const *argv[])
     printf("enter how many element you want to see in fibonacci series : ");
     scanf("%d",&n);
 
-
-   
-  
-
-    
-
     for(i=1;i<=n;i++)
     {
         printf("the %dth fibonacci number is %d\n",i,a);
