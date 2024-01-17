@@ -1,3 +1,10 @@
+// 1
+// AB
+// 123
+// ABCD
+// 12345
+//n=5
+
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {

@@ -66,7 +66,7 @@ int main(int argc, char const *argv[])
         for(k=1;k<=i;k++)
         {
             printf("* ");
-        }
+        }  
         printf("\n");
     }
     return 0;

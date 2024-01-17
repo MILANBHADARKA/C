@@ -1,3 +1,10 @@
+// A B C D E
+// A B C D E
+// A B C D E
+// A B C D E
+// A B C D E
+//n=5
+
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
@@ -13,13 +20,10 @@ int main(int argc, char const *argv[])
         int c=65;
         for(j=1;j<=n;j++)
         {
-             /*char ch=(char)c;
+            /*char ch=(char)c;
             printf("%c",ch);*/
             
             printf("%c ",c);
-
-           
-
             c++;
         }
         printf("\n");

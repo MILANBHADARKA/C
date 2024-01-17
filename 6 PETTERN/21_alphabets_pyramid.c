@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
             c++;
         }
         c=c-2;
-        for(r=i-1;r>=1;r--)
+        for(r=1;r<i;r++)
         {
             printf("%c",c);
             c--;

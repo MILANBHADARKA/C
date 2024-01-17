@@ -28,9 +28,10 @@ int main(int argc, char const *argv[])
             printf("%d",k);
         }
                                                                 // k=k-2;
-                                                                // for(r=k;r>=1;r--)
+                                                                // for(r=1;r<i;r++)
                                                                 // {
-                                                                //     printf("%d",r);
+                                                                //     printf("%d",k);
+                                                                //     k--;
                                                                 // }
         for(r=i-1;r>=1;r--)
         {
