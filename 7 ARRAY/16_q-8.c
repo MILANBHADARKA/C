@@ -1,4 +1,4 @@
-//reverse a ayyay without using another array
+//reverse a array without using another array
 
 #include<stdio.h>
 int main(int argc, char const *argv[])

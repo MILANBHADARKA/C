@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
     int temp;
     for (i = 0; i < m; i++)
     {
-        for (j = 0; j <= i; j++) // if we dont do j<=i then transpose not find and in output we got matrix a not transpose.
+        for (j = 0; j <=i; j++) // if we dont do j<=i then transpose not find and in output we got same matrix a not transpose.
         {
             temp = a[i][j];
             a[i][j] = a[j][i];

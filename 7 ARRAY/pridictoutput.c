@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     for(i=0;i<18;i++);
     {
          a[i]=i;
-         printf("\n%d",a[i]);
+         printf("%d",a[i]);
     }
     return 0;
 }

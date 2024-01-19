@@ -11,6 +11,18 @@ int main(int argc, char const *argv[])
     a[1][0]=3;
     a[1][1]=4;
 
+    //OR//
+
+    /*
+    int a[2][2]={1,2,3,4}
+    */
+
+   //OR//
+
+    /*
+    int a[2][2]={{1,2},{3,4}}
+    */
+
     printf("%d\t",a[0][0]);
     printf("%d\t",a[0][1]);
     printf("%d\t",a[1][0]);

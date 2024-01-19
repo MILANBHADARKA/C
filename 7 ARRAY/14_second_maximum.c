@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+#include <stdlib.h>
 int main(int argc, char const *argv[])
 {
     int i, j, k, n, flag = 0;
@@ -29,39 +30,34 @@ int main(int argc, char const *argv[])
         }
     }
 
-    if (flag == 1)
+    if (flag == 0)
     {
-        goto one;
+        printf("all element of array is same so we not find second maximum\n");
+        exit(0);
     }
     else
     {
-        goto two;  //to end program.
-    }
-
-one:
-
-    for (i = 0; i < n; i++)
-    {
-        if (a[i] > max)
+        for (i = 0; i < n; i++)
         {
-            max = a[i];
+            if (a[i] > max)
+            {
+                max = a[i];
+            }
         }
-    }
-    for (i = 0; i < n; i++)
-    {
-        if (a[i] > smax && a[i] != max)
+        for (i = 0; i < n; i++)
         {
-            smax = a[i];
+            if (a[i] > smax && a[i] != max)
+            {
+                smax = a[i];
+            }
         }
+
+        printf("second max=%d", smax);
     }
-    printf("second max=%d", smax);
 
-    goto three;
+    
+    
 
-two:
-    printf("all element of array is same so we not find second maximum\n");
-
-three:
     return 0;
 }
 
