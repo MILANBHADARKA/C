@@ -40,5 +40,7 @@ int main(int argc, char const *argv[])
     printf("%d\n", *arrptr); // this will print value of arr[5] because first we do arrptr++ then we do arrptr=arrptr+4 so now arrptr points to arr[5].
     printf("%d\n\n", arrptr);
 
+   
+
     return 0;
 }

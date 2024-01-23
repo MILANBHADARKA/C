@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     puts(state[2]);
     puts("\n");
 
-    // state[2]="kerela"; this is in valid
+    // state[2]="kerela"; this is invalid
 
     strcpy(state[2],"kerela");
     puts(state[2]);

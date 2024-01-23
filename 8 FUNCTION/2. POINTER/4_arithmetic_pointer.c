@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
 
     //in output we can saw that if we do x++ or x+1 then than output is x + sizeof(int)*1.
     x-=2;
-    printf("\n\after x-2\n");
+    printf("\nafter x-2\n");
     printf("%u\n",x);
 
     //in output we can saw that if we do x-2 then than output is x - sizeof(int)*2.

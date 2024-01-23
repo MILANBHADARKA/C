@@ -16,7 +16,6 @@ int main(int argc, char const *argv[])
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
-        
     }
     
     
