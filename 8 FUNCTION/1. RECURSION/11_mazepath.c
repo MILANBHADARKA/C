@@ -1,8 +1,5 @@
 // for simple solution of maze path goto maze2.c
 
-
-
-
 #include<stdio.h>
 int maze(int cr,int cc,int er,int ec)   // cr=current row   cc=current coloum   er=ending row   ec=ending coloum
 {   
